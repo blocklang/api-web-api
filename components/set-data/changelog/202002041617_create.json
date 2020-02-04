@@ -1,0 +1,27 @@
+{
+    "id": "202002041617",
+    "author": "jinzw",
+    "changes": [
+        {
+            "newClientAPI": {
+                "name": "setData",
+                "label": "设置页面数据",
+                "canHasChildren": false,
+                "params": [
+                    {
+                        "name": "key",
+                        "label": "键",
+                        "defaultValue": "",
+                        "valueType": "string"
+                    },
+                    {
+                        "name": "value",
+                        "label": "值",
+                        "defaultValue": "",
+                        "valueType": "any"
+                    }
+                ]
+            }
+        }
+    ]
+}
