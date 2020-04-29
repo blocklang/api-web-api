@@ -1,0 +1,61 @@
+{
+    "id": "202004291738",
+    "author": "jinzw",
+    "changes": [
+        {
+            "createObject": {
+                "name": "console",
+                "functions": [
+                    {
+                        "name": "log",
+                        "parameters": [
+                            {
+                                "name": "message",
+                                "type": "any",
+                                "optional": false,
+                                "variable": false
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "name": "info",
+                        "parameters": [
+                            {
+                                "name": "message",
+                                "type": "any",
+                                "optional": false,
+                                "variable": false
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "name": "warn",
+                        "parameters": [
+                            {
+                                "name": "message",
+                                "type": "any",
+                                "optional": false,
+                                "variable": false
+                            }
+                        ],
+                        "returnType": "void"
+                    },
+                    {
+                        "name": "error",
+                        "parameters": [
+                            {
+                                "name": "message",
+                                "type": "any",
+                                "optional": false,
+                                "variable": false
+                            }
+                        ],
+                        "returnType": "void"
+                    }
+                ]
+            }
+        }
+    ]
+}
